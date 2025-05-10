@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+      "stockTools": {
+        "command": "uv",
+        "args": [
+          "--directory",
+          "Place your absolute path here",
+          "run",
+          "server.py"
+        ]
+      }
+    }
+  }
