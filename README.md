@@ -1,4 +1,4 @@
-# Building a Finance agents wit MCP
+# Building a Finance agent with MCP
 
 ## Overview
 
