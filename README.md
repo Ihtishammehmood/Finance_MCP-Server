@@ -8,7 +8,7 @@ This project demonstrates the use of a **Model Context Protocol (MCP)** server f
 
 1. **MCP Server (Finance):**
 
-   * This server is created using `yfinance` fetch financial information of companies
+   * This server is created using `financialdatasets api` fetch financial information of companies
    * Standardizes interactions with external financial data sources using MCP.
 2. **Agentic Framework Integration**
 
@@ -30,9 +30,10 @@ This project demonstrates the use of a **Model Context Protocol (MCP)** server f
 ```bash
     git clone https://github.com/Ihtishammehmood/Finance_MCP-Server.git
 ```
-2.  Add Groq APi to .env:
+2.  Add [Groq](https://console.groq.com/keys)  and [Financial Datasets](https://www.financialdatasets.ai/) APi to .env:
 ```
 GROQ_API_KEY = "Place your GROQ API key here"
+FINANCIAL_DATASETS_API_KEY = "Place your Financial Datasets API key here"
 ```
 
 3. Install UV package Manager
@@ -56,7 +57,7 @@ uv venv
 6. Install dependencies
 
 ```bash
-uv pip sync requirements.txt
+uv add -r requirements.txt
 ```
 
 7. Start Agno and Smol Agent integrations:
