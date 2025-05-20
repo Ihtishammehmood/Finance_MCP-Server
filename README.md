@@ -1,5 +1,10 @@
 # Building a Finance agent with MCP
 
+## See Full Video:
+[![Watch the video](image\thumbnail.PNG)](https://youtu.be/xnLeVjDZ16Y)
+
+
+
 ## Overview
 
 This project demonstrates the use of a **Model Context Protocol (MCP)** server for retrieving financial data. The MCP server is integrated with **Agno** and **Smol Agent** to showcase its versatility in handling multiple agentic frameworks in standardized way.
@@ -63,8 +68,7 @@ uv add -r requirements.txt
 7. Start Agno and Smol Agent integrations:
 
 ```bash
-    uv run agno_agent.py
-    uv run smol_agent.py
+uv run agno_agent.py
 ```
 
 ## Initialize MCP Inspector
@@ -78,7 +82,7 @@ uv add -r requirements.txt
         "command": "uv",
         "args": [
           "--directory",
-          "Place your absolute path here",
+          "Absolute path to server.py file directory",
           "run",
           "server.py"
         ]
