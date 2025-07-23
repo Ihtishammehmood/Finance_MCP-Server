@@ -1,7 +1,7 @@
 # Building a Finance agent with MCP
 
 ## See Full Video:
-[![Watch the video](image/thumbnail.PNG)](https://youtu.be/xnLeVjDZ16Y)
+[![Watch the video](image/thumbnail.PNG)](https://www.youtube.com/watch?v=xnLeVjDZ16Y)
 
 
 
